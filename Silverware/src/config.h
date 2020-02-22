@@ -50,7 +50,7 @@
 #define BF_SUPER_RATE_YAW 0.10
 #define BF_EXPO_ROLL 0.00
 #define BF_EXPO_PITCH 0.00
-#define BF_EXPO_YAW 0.02
+#define BF_EXPO_YAW 0.00
 #endif
 
 // *************max angle for level mode
