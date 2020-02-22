@@ -12,8 +12,8 @@
 // *************uncomment H8mini_blue_board for the H8 mini flight controller with blue circuit board
 
 //#define Lite_Brushless
-//#define Lite_BrushlessRX
-#define Lite_BrushedRX
+#define Lite_BrushlessRX
+//#define Lite_BrushedRX
 //#define ENABLE_UART1_TX //重定向USART1_TX
 //#define SERIAL_RX_SWD //使能PA14作为RX接口,lite有刷使用
 
@@ -21,8 +21,8 @@
 //***********************************************RATES & EXPO SETTINGS**************************************************
 
 // *************Select your preffered rate calculation format (define only one)
-#define SILVERWARE_RATES
-//#define BETAFLIGHT_RATES
+// #define SILVERWARE_RATES
+#define BETAFLIGHT_RATES
 
 #ifdef SILVERWARE_RATES
 // *************rate in deg/sec
@@ -44,24 +44,24 @@
 #ifdef BETAFLIGHT_RATES
 #define BF_RC_RATE_ROLL 1.00
 #define BF_RC_RATE_PITCH 1.00
-#define BF_RC_RATE_YAW 1.00
-#define BF_SUPER_RATE_ROLL 0.70
-#define BF_SUPER_RATE_PITCH 0.70
-#define BF_SUPER_RATE_YAW 0.70
+#define BF_RC_RATE_YAW 2.10
+#define BF_SUPER_RATE_ROLL 0.80
+#define BF_SUPER_RATE_PITCH 0.80
+#define BF_SUPER_RATE_YAW 0.10
 #define BF_EXPO_ROLL 0.00
 #define BF_EXPO_PITCH 0.00
-#define BF_EXPO_YAW 0.00
+#define BF_EXPO_YAW 0.02
 #endif
 
 // *************max angle for level mode
-#define LEVEL_MAX_ANGLE 65.0f
+#define LEVEL_MAX_ANGLE 85.0f
 
 // ************* low rates multiplier if rates are assigned to a channel
 #define LOW_RATES_MULTI 0.5f
 
 // *************transmitter stick adjustable deadband for roll/pitch/yaw
 // *************.01f = 1% of stick range - comment out to disable
-#define STICKS_DEADBAND .01f
+// #define STICKS_DEADBAND .01f
 
 //**********************************************************************************************************************
 //***********************************************RECEIVER SETTINGS******************************************************
