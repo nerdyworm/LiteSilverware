@@ -40,8 +40,8 @@ unsigned char low_bat_l=16;
 unsigned char mode_l=21;
 unsigned char vol_l=23;
 unsigned char turtle_l=18;
-unsigned char low_battery=33;
-char motorDir[4] = {1,0,0,1};
+unsigned char low_battery=32;
+char motorDir[4] = {1,1,1,1};
 
 unsigned int ratesValue=860;
 unsigned int ratesValueYaw = 500;
