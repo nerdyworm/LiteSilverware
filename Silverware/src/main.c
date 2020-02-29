@@ -48,7 +48,7 @@ THE SOFTWARE.
 #include "buzzer.h"
 #include "drv_fmc2.h"
 #include "binary.h"
-#include "osd.h"
+// #include "osd.h"
 #include "IIR_filter.h"
 //#include "sensor.h"
 
@@ -212,7 +212,7 @@ int main(void)
 
 #ifdef Lite_OSD
 
-    osdMenuInit();
+    // osdMenuInit();
 
 #ifndef debug_uart
     UART2_init(4800);
@@ -708,7 +708,7 @@ int main(void)
             //            cal = 0;
             //        }
 
-            osd_setting();
+            // osd_setting();
 #ifdef BRUSHLESS_TARGET
             pwm_count++;
             if (pwm_count == 30)
