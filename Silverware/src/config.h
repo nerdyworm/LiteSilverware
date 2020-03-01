@@ -131,10 +131,10 @@
 //***********************************************VOLTAGE SETTINGS*******************************************************
 
 // ************* Set your lipo cell count to override auto cell count detect logic
-#define LIPO_CELL_COUNT 1
+//#define LIPO_CELL_COUNT 1
 
 // ************* Raises pids automatically as battery voltage drops in flight.  Ensure voltage is calibrated before use ****CRITICAL****.
-#define PID_VOLTAGE_COMPENSATION
+//#define PID_VOLTAGE_COMPENSATION
 #define LEVELMODE_PID_ATTENUATION 0.90f //used to prevent oscillations in angle modes with pid_voltage_compensation enabled due to high pids
 
 // *************lower throttle when battery below threshold - forced landing low voltage cutoff
@@ -207,10 +207,10 @@
 
 //Select Gyro Filter Cut Frequency
 #define GYRO_FILTER_PASS1 HZ_90
-#define GYRO_FILTER_PASS2 HZ_260
+#define GYRO_FILTER_PASS2 HZ_140
 
 //Select D Term Filter Cut Frequency *** Select Only one
-#define DTERM_LPF_2ND_HZ 170
+#define DTERM_LPF_2ND_HZ 120
 //#define DTERM_LPF_1ST_HZ 70
 
 //Select Motor Filter Type  (I am no longer using this)

@@ -78,9 +78,9 @@ float stickTransitionProfileB[3] = {0.3, 0.3, 0.0};  //keep values between -1 an
 //float pidkd[PIDNUMBER] = { 5.6e-1 , 6.7e-1  , 0.5e-1 };
 
 //Brushless 1s
-float pidkp[PIDNUMBER] = {0.1438, 0.1438, 0.2436};
+float pidkp[PIDNUMBER] = {0.16, 0.16, 0.26};
 float pidki[PIDNUMBER] = {1.4, 1.4, 1.4};
-float pidkd[PIDNUMBER] = {0.5666, 0.5666, 0.05};
+float pidkd[PIDNUMBER] = {0.60, 0.60, 0.08};
 
 //4in Brushless Pids - 1407 3600kv Motors, 4s - Gyro filters at 90hz, 1st order D at 70hz - PID_Vbat Comp seems ok here
 //                         ROLL       PITCH     YAW
