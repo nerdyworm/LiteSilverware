@@ -21,14 +21,14 @@
 //***********************************************RATES & EXPO SETTINGS**************************************************
 
 // *************Select your preffered rate calculation format (define only one)
-// #define SILVERWARE_RATES
+//#define SILVERWARE_RATES
 #define BETAFLIGHT_RATES
 
 #ifdef SILVERWARE_RATES
 // *************rate in deg/sec
 // *************for acro mode
 #define MAX_RATE 860.0    //Roll & Pitch axis
-#define MAX_RATEYAW 500.0 //Yaw axis (used in acro and leveling modes)
+#define MAX_RATEYAW 710.0 //Yaw axis (used in acro and leveling modes)
 
 // *************EXPO from 0.00 to 1.00 , 0 = no exp
 // *************positive = less sensitive near center
@@ -207,7 +207,7 @@
 
 //Select Gyro Filter Cut Frequency
 #define GYRO_FILTER_PASS1 HZ_90
-#define GYRO_FILTER_PASS2 HZ_260
+#define GYRO_FILTER_PASS2 HZ_90
 
 //Select D Term Filter Cut Frequency *** Select Only one
 #define DTERM_LPF_2ND_HZ 170
