@@ -210,7 +210,7 @@
 #define GYRO_FILTER_PASS2 HZ_90
 
 //Select D Term Filter Cut Frequency *** Select Only one
-#define DTERM_LPF_2ND_HZ 170
+#define DTERM_LPF_2ND_HZ 100
 //#define DTERM_LPF_1ST_HZ 70
 
 //Select Motor Filter Type  (I am no longer using this)
